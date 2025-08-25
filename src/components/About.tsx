@@ -1,5 +1,7 @@
 import React from 'react';
 import { Code, Coffee, Lightbulb, Users } from 'lucide-react';
+import programming from "../public/programming.jpg";
+import olp from "../public/OIP.jpg";
 
 const About = () => {
   const highlights = [
@@ -40,7 +42,7 @@ const About = () => {
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
           <div>
             <img
-              src="https://images.pexels.com/photos/3861958/pexels-photo-3861958.jpeg?auto=compress&cs=tinysrgb&w=800"
+              src={programming}
               alt="Developer workspace"
               className="rounded-2xl shadow-2xl"
             />
